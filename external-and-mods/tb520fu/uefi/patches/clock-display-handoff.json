@@ -1,7 +1,7 @@
 {
   "module": "ClockDxe",
-  "input_sha256": "ce93cbee7189ba0609dc215a2891649a2e65094073876d654cc00f957d30a6fe",
-  "output_sha256": "b9f81ed4836c6ed978c1665a94311d7d6952bef157e755a41d5e79f65d7408f3",
+  "input_sha256": "58ee6e02225e96c89347290afc561856ee595a1bcc975b54ca97787890be0a13",
+  "output_sha256": "714355605acd11b2344c40dcf7c6e0beda9c687cee6d6aa3adc225cee256593c",
   "rva": "0x7D3C",
   "before": "6e0a0094",
   "after": "e0031f2a",

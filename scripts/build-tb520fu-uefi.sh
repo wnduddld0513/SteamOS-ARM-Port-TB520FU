@@ -29,14 +29,9 @@ git -C "$mu" checkout -q --detach FETCH_HEAD
 git -C "$mu" remote set-url --push origin DISABLED
 # Preparation and the platform DSC need the pinned submodules (Mu_Basecore for the
 # dispatcher trace patch, mu_plus and the OEM sample for the platform sources).
-# Borrow objects from a sibling checkout when one is already present.
-ref=()
-for prev in "$work"/mu-tb520fu.*; do
-    [[ "$prev" == "$mu" ]] && continue
-    [[ -e "$prev/Mu_Basecore/.git" ]] || continue
-    ref=(--reference "$prev"); break
-done
-git -c safe.directory="$mu" -C "$mu" submodule update --init --recursive --depth 1 ${ref[@]+"${ref[@]}"}
+# Sibling checkouts are shallow, and git refuses a shallow --reference
+# repository, so every checkout fetches its own depth-1 submodules.
+git -c safe.directory="$mu" -C "$mu" submodule update --init --recursive --depth 1
 python3 "$TB520FU_REPO_ROOT/scripts/prepare-tb520fu-uefi.py" --mu "$mu" --stock "$stock"
 if [[ "$mode" == --prepare-only ]]; then
     echo "Prepared only (no compiler invoked): $mu"

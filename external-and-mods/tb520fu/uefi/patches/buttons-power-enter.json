@@ -1,7 +1,7 @@
 {
   "module": "ButtonsDxe",
-  "input_sha256": "f83a07d53a509cd586de51c325ab54185ad4b99ad63d1a2d13b34f30dee169ed",
-  "output_sha256": "ace24a88b469361a44277bfa767f8a2f3fddc36232f76ef495cd8540f66c441d",
+  "input_sha256": "6dc9a6adbad954bdc16a02c4a348eb0a39928db88cc12383e49a29ccdfea2c3d",
+  "output_sha256": "3ec0185050ae32102385f06e22bee1dcb775830cb2cafb24b696cfc24308cdc7",
   "rva": "0x3cc0",
   "before": "48208052d6ffff17",
   "after": "edffff171f2003d5",

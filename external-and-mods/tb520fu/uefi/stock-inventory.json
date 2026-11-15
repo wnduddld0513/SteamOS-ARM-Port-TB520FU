@@ -3,9 +3,9 @@
     "mu_url": "https://github.com/Project-Silicium/Mu-Silicium.git",
     "mu_commit": "8d73b66ab554f9ab6134b58839bb1e46ebd47688",
     "stock": {
-      "uefi.elf": "a2abba64ac0c56cf301b811da7e9a21a262cdcb0d7c62ff14d3ef741708b9b8c",
-      "xbl_config.elf": "1b618c1cb9d5207b03e9ec332d08b0d8a73b4edd44215badeac7b52340317765",
-      "boot.img": "35a2eceda1934a909c5537df7b38f9013130cf29f66537f563bb69544b35ca4e"
+      "uefi.elf": "9d47ecaabfefbad8918ef0b4e0fc4ed12a8a2d9ea91150ad4ec55a8de1c44504",
+      "xbl_config.elf": "2f74ab385607576bb4cb64104f9201b2bf1eb87b575f982627b165d9f940206c",
+      "boot.img": "a291bb0ec80c2cf5293925a05a8a9d8e506f635f166701a278e6b948eba7495d"
     },
     "firmware_volume_base": "0xa7100000",
     "firmware_volume_size": "0x300000",
@@ -16,7 +16,7 @@
     {
       "name": "EnvDxeEnhanced",
       "guid": "90a49afd-422f-08ae-9611-e788d3804845",
-      "pe_sha256": "8358bd3b75257900db19f807da082cf69f56d1f214870e0c1e501e7c61adc4de",
+      "pe_sha256": "584d41eba0f751eb205ceb216bed2c66b5b751bb6bf679cf5cab62a3ac41da91",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
@@ -54,72 +54,72 @@
     {
       "name": "PsStateDxe",
       "guid": "92bdcb29-d427-400e-847d-37345fc1d5f0",
-      "pe_sha256": "fac69b529d6ff0fe0bd3b5a19a8f5fa90ef55fa8340aa69dbb42786abd54034f",
+      "pe_sha256": "b21d10552e8f00b98d3ed49e509d5a3028ee0679aa2d54573470e7dc92488a94",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "FontDxe",
       "guid": "ed15ffd5-bc96-4107-9118-95366600188e",
-      "pe_sha256": "a894c905d48be2844c7c2b3f8899c59ed200386dfa31e14c2a8c2db190e7d326",
+      "pe_sha256": "a02e37ed32fc7f0bc0c6dfced2337d21e1479dfb1f250771ccf69a581d1bda2d",
       "depex_sha256": "a3ba363e3f33fec61cf0f67f51d49dcb465bf088d753a25ef4111db1747ed264"
     },
     {
       "name": "QcomWDogDxe",
       "guid": "040e1e61-0afb-411b-9ec9-00f3fc59cc13",
-      "pe_sha256": "535966d959ce4b9fc3691a594a1d3b46089c69c3e002dd6f2ed90f44463945d2",
+      "pe_sha256": "836d2a73ebc3b9dd81d23c48ffca2487ec3b299cb72abcb02733708c0ff887c4",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "ChipInfo",
       "guid": "10e193df-9966-44e7-b17c-59dd831e20fc",
-      "pe_sha256": "fb52a49be500f438a21eb67aa2359fdfd9f61659e4585b5850208f38c7da542d",
+      "pe_sha256": "ff6fb310832a2a38217420ade76ca424d18de71fed4d9a1e1fc7f64ed4c4c871",
       "depex_sha256": "5a2204901e9095761d883230974b7d3265bb85eb6eecfd02550ce4d17ec61802"
     },
     {
       "name": "PlatformInfoDxeDriver",
       "guid": "b105211b-bbbd-4add-a3b0-d1cf4a52154c",
-      "pe_sha256": "0f5c97cc40a2d2ea5d99f6edf56794da9eb771ed9ace059855379d42014d3095",
+      "pe_sha256": "9837d8dfe67a958803be6b3ae88e7c4ae130f93bcbf99bcf72e7d40e40829049",
       "depex_sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477"
     },
     {
       "name": "DALSys",
       "guid": "8e9bd160-b184-11df-94e2-0800200c9a66",
-      "pe_sha256": "34ce06cee8dd23a9a107a31b812d2ce96e374ef4a459bd8edc3a519b460e9d67",
+      "pe_sha256": "219070f66fd93617c311f3c692f176938077e3c1d5e87ae681e60aff5b99abf7",
       "depex_sha256": "445084b65f55991565be20b692e489f28006a91c3d0a050eae2a8eebdf12f563"
     },
     {
       "name": "HALIOMMU",
       "guid": "9a00771f-36d4-4dd5-8916-c48ed9b16b86",
-      "pe_sha256": "441cdeba8b099b825ca77609f33d8c7e75f539020e53fb9c5486d367d0ac5a64",
+      "pe_sha256": "ff7e5ffa400e8eea9becdf399961b472ed938b7ceba0f330e47f80086d3af780",
       "depex_sha256": "8d212b55931b8b7178a06d7d5ff305306299accdbd845743b3c58bdf2e62a45f"
     },
     {
       "name": "HWIODxeDriver",
       "guid": "af9763a2-033b-4109-8e17-56a98d380c92",
-      "pe_sha256": "ab3c7d97e53c98da1e59e5dd8b022e0ee69933d4b060f1399db311a72087aced",
+      "pe_sha256": "46187848efa418971439d49e61eae7bc9e190e7a37e50f601b31f4891ea732e6",
       "depex_sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477"
     },
     {
       "name": "I2C",
       "guid": "04de8591-d2b3-4077-bbbe-b12070094eb6",
-      "pe_sha256": "24fc9f8a749d4558ebe6c9db12847c5595bcb97fa506474c6c56fc1488311057",
+      "pe_sha256": "fc8e5f5b7456f7785b6270379bf2c5bf1b768b4164210ab63dc876f2fe23997c",
       "depex_sha256": "95cfa13b1308bf157c24a44e7492c34335e9af953a0056da17fb047bdeb2dd50"
     },
     {
       "name": "DALTLMM",
       "guid": "8681cc5a-0df6-441e-b4b8-e915c538f067",
-      "pe_sha256": "83a850e82269884bb1f91f7c24a0b9b63ae8c5e03ce4831f74bb3048f4585645",
+      "pe_sha256": "63f58731a101a645947be0b6635ccdeac89065e850c630b0723387347aa66c5b",
       "depex_sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477"
     },
     {
       "name": "PmicDxe",
       "guid": "5776232e-082d-4b75-9a0e-fe1d13f7a5d9",
-      "pe_sha256": "accfba137defff7a6928c3922a21d5dafb800c99347303d1074f584ce5993107",
+      "pe_sha256": "64e0f56d66e71b40cb97fca956e310bbb0d48472d20ef1827e72fc0ea1520aa8",
       "depex_sha256": "cc8bf8c154c79716116873363269e8c00e6f3da84e78552a0cadb22dd16050d7",
       "binary_patch": {
         "module": "PmicDxe",
-        "input_sha256": "b42833333e78bd5bab193577dd0b181a8ba5cfa043f33650214b4ab4c28b84fb",
-        "output_sha256": "accfba137defff7a6928c3922a21d5dafb800c99347303d1074f584ce5993107",
+        "input_sha256": "11441d7144146a452f16533cbe5df0b1f3a84422dc0b6c9eb55887210991f057",
+        "output_sha256": "64e0f56d66e71b40cb97fca956e310bbb0d48472d20ef1827e72fc0ea1520aa8",
         "rva": "0x11D14",
         "before": "fd7bbea9f30b00f9",
         "after": "e0031f2ac0035fd6",
@@ -131,24 +131,24 @@
     {
       "name": "DiskIoDxe",
       "guid": "6b38f7b4-ad98-40e9-9093-aca2b5a253c4",
-      "pe_sha256": "3db34a47e61d51b8c89d4c2343a09789b9f0c45a85efbb95ff5a5cfccac29689",
+      "pe_sha256": "00fcd30ce61f700efa4c09cf8f19973f1d6a201d8c7a27e3ffed6dd0bf096c52",
       "depex_sha256": null
     },
     {
       "name": "PartitionDxe",
       "guid": "1fa1f39e-feff-4aae-bd7b-38a070a3b609",
-      "pe_sha256": "a6a27abb368860d0a5473056d37fb400db54ecfb360a2e3c4cb737a9e96977ba",
+      "pe_sha256": "1bad85e6d37570ce61af0e23198d62718bfbf1d8c1acb86d1560532acd0954f4",
       "depex_sha256": null
     },
     {
       "name": "UFSDxe",
       "guid": "0d35cd8e-97ea-4f9a-96af-0f0d89f76567",
-      "pe_sha256": "3a7db7acbf3f646f2e5bb53bc267f8bc6f1d01b7b8caeb391194e5f4a496b373",
+      "pe_sha256": "5c72038714249f791ce194466c51aa930532951d0b72b45975976a3e2a456dcc",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
       "binary_patch": {
         "module": "UFSDxe",
-        "input_sha256": "452fb89e6767f1f9327539887f41214849dc50df8ba3139bbb0278582d2d9b6d",
-        "output_sha256": "3a7db7acbf3f646f2e5bb53bc267f8bc6f1d01b7b8caeb391194e5f4a496b373",
+        "input_sha256": "6a38102a7c3c1e255f527ef01e7e1bf66ce315b8914f5b6305d8db8f53d56a1f",
+        "output_sha256": "5c72038714249f791ce194466c51aa930532951d0b72b45975976a3e2a456dcc",
         "rva": "0xA468",
         "before": "4505009480fdff35",
         "after": "210080528f050094",
@@ -163,48 +163,48 @@
     {
       "name": "CmdDbDxe",
       "guid": "aba01ff8-2ccb-4e12-8b2e-cd3f4a742993",
-      "pe_sha256": "3fdec60dff128e5344279fdaebdf70df344e6e906cbccd199bf7a7e283accae8",
+      "pe_sha256": "45fc3cdcea91d62517274f87ad92ae8e611b344024dbe720ccfaae5c1184368b",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "PwrUtilsDxe",
       "guid": "0401b830-bff9-44a2-a5f6-95734a33c017",
-      "pe_sha256": "83bcc846f1901f16fbfeacf173a5fa55e09b4261f2c5b7b1c35fdd8af0dd185c",
+      "pe_sha256": "8cc274e656461b8291b9cb72e56660fe4064aa09ff949e8407246ce1ca27c436",
       "depex_sha256": "69f6f40457ed7a884f56e034cb84bf53bf4cb3210cc31839e0d1a5d86b460a94"
     },
     {
       "name": "RpmhDxe",
       "guid": "cb29f4d1-7f37-4692-a416-93e82e219766",
-      "pe_sha256": "ae2835e5398ed93b8e58850de173ef58e98508529d347c6b3d439afa1ab3338f",
+      "pe_sha256": "3ee2b523c1006e4ea7c5a00f3581bed4ebd092a7fc816705ffdb1ae04f61ec4f",
       "depex_sha256": "4222f37e19a4b252aa185240a267b613ee5e464543e682f222a21fea7c0ed2a2"
     },
     {
       "name": "NpaDxe",
       "guid": "cb29f4d1-7f37-4692-a416-93e82e219711",
-      "pe_sha256": "2ba8bba84f3acaf4264df987fbf479e900d6d7eb739ac7dd3c3e7a5122356b7e",
+      "pe_sha256": "9bc4b36cfde5a865d02959d41599b20645201cd7fe8626514330963468834858",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "ULogDxe",
       "guid": "e43128a8-8692-42b6-8afa-676158578d18",
-      "pe_sha256": "ab7ade3b54550206f71fe938b5bd7c8391ad1db6b402574ac1a8e53f62614b9f",
+      "pe_sha256": "385dc252e7713019d8cecb649ab266382ce229b63cd0c0218b688f4c1a899386",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "VcsDxe",
       "guid": "8bd3b475-401a-4b0b-9315-edee61a1eae5",
-      "pe_sha256": "48c60e0027607dad5b509c1cc6649d7392bb18309f13a377dbf99481ed5f3b30",
+      "pe_sha256": "9035ad0ce3b8814c816c637d2dd3c322c562a42470242eb94b0c2ff570e2e4f7",
       "depex_sha256": "c8001e9cea134cf8205ad4167fd0ff3b8dab6ecf325c723158cc6916e4a9b1cf"
     },
     {
       "name": "ClockDxe",
       "guid": "4db5dea6-5302-4d1a-8a82-677a683b0d29",
-      "pe_sha256": "b9f81ed4836c6ed978c1665a94311d7d6952bef157e755a41d5e79f65d7408f3",
+      "pe_sha256": "714355605acd11b2344c40dcf7c6e0beda9c687cee6d6aa3adc225cee256593c",
       "depex_sha256": "c8001e9cea134cf8205ad4167fd0ff3b8dab6ecf325c723158cc6916e4a9b1cf",
       "binary_patch": {
         "module": "ClockDxe",
-        "input_sha256": "ce93cbee7189ba0609dc215a2891649a2e65094073876d654cc00f957d30a6fe",
-        "output_sha256": "b9f81ed4836c6ed978c1665a94311d7d6952bef157e755a41d5e79f65d7408f3",
+        "input_sha256": "58ee6e02225e96c89347290afc561856ee595a1bcc975b54ca97787890be0a13",
+        "output_sha256": "714355605acd11b2344c40dcf7c6e0beda9c687cee6d6aa3adc225cee256593c",
         "rva": "0x7D3C",
         "before": "6e0a0094",
         "after": "e0031f2a",
@@ -220,11 +220,11 @@
     {
       "name": "SPMI",
       "guid": "2a7b4bef-80cd-49e1-b473-374ba4d673fc",
-      "pe_sha256": "60bda5221d3d46e8ef5a107b912d94c4d487f0745b0ca56b63ca496b52718cb9",
+      "pe_sha256": "12e0106debc782e2794e388a77daa401e7d92ec0457ec2623df45c192fbc0d00",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
       "binary_patch": {
         "module": "SPMI",
-        "input_sha256": "fd6b11d13950ff62a45bb23fc8120c95115611d8460956902f6308c0cb77e65f",
+        "input_sha256": "8ea6feb4160390f74cfa0e64cdf3a9b902f70c841a02e809755716e11444bece",
         "sites": [
           {
             "rva": "0x3668",
@@ -247,30 +247,30 @@
         },
         "limitations": "A narrow CPU exception fixup converts only reviewed synchronous external aborts inside this exact SPMI raw-transfer frame to vendor denied. Faulting write channels are quarantined; observer reads and other write channels stay enabled. This contains inaccessible MMIO, not a repair of the underlying hardware access policy. USB VBUS still depends on accessible power paths. Tablet validation pending.",
         "boot_tested": false,
-        "output_sha256": "60bda5221d3d46e8ef5a107b912d94c4d487f0745b0ca56b63ca496b52718cb9"
+        "output_sha256": "12e0106debc782e2794e388a77daa401e7d92ec0457ec2623df45c192fbc0d00"
       }
     },
     {
       "name": "ICBDxe",
       "guid": "5824f9de-17d2-4b1f-a5fe-5eb77fa53093",
-      "pe_sha256": "aed2b3e969babba85ceb0e42376a5858fbeb89e8ed04939d5538aae39f25ccdd",
+      "pe_sha256": "121b45092cc52c181c238ccf5d40a2254e8af59d81f4503f39a1e2df919796e2",
       "depex_sha256": "c8001e9cea134cf8205ad4167fd0ff3b8dab6ecf325c723158cc6916e4a9b1cf"
     },
     {
       "name": "SmemDxe",
       "guid": "f541d663-4a48-40aa-aabf-ff158ccae34c",
-      "pe_sha256": "e779d1006134bf108d5820ec634b3904119671a82186cb69b8e1ede58b5e1143",
+      "pe_sha256": "8ea991a2e34b8b170899b5996fcdc3e9ccea2e164b13bf561eacb4f52bb51ee7",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "RscDxe",
       "guid": "ea888df7-d431-44af-844c-7b29390f2758",
-      "pe_sha256": "b86b761f7dfa3ecb86c40bb85bbd13c8d705003d3e0560ce45753169fd099698",
+      "pe_sha256": "374ea457f40be6a4c559f6ae0791d47e9c94472947d087ddf5278df4adf9ecc6",
       "depex_sha256": "69f6f40457ed7a884f56e034cb84bf53bf4cb3210cc31839e0d1a5d86b460a94",
       "binary_patch": {
         "module": "RscDxe",
-        "input_sha256": "b9109dd93c708f749e9fa07f78c24b342e03750d3ad9c105b7452a1c0920c223",
-        "output_sha256": "b86b761f7dfa3ecb86c40bb85bbd13c8d705003d3e0560ce45753169fd099698",
+        "input_sha256": "b81d57213c48629cdabf68d5ae241e5e8cd54683ec5c76a5186cd2e2a3fba4cd",
+        "output_sha256": "374ea457f40be6a4c559f6ae0791d47e9c94472947d087ddf5278df4adf9ecc6",
         "rva": "0x14E4",
         "before": "ffc300d1fd7b01a9",
         "after": "e00b41b2c0035fd6",
@@ -283,7 +283,7 @@
     {
       "name": "I2CHapticDxe",
       "guid": "ee01101e-503d-4333-b2e8-e836e2927a6e",
-      "pe_sha256": "db6735ca4c9961571b2079806f4619b9c965715ad4d8e677efd292900e214a7d",
+      "pe_sha256": "13735daccd15fbab1f4eb9c603ab7bc10a703c1089c25423b3df8b618df2380f",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
@@ -294,31 +294,31 @@
     {
       "name": "CPRDxe",
       "guid": "1b52138d-3fa3-4e50-b958-20887353f809",
-      "pe_sha256": "d788c4f63c9304bef528dd7cc73cbf302900ec2d2beac84e5897b190659437ce",
+      "pe_sha256": "987d0bacf5e4410013a93528868b5af68068c3b7538ae64cbf39eaf15b362a02",
       "depex_sha256": "4222f37e19a4b252aa185240a267b613ee5e464543e682f222a21fea7c0ed2a2"
     },
     {
       "name": "GpiDxe",
       "guid": "569ea0de-b557-4043-84cf-01103fe516e5",
-      "pe_sha256": "34ab4134f9eaa623c0c3df04f7b03ea2bb9825055a77afdb49eaa6b80853c5f2",
+      "pe_sha256": "535a19148867c1a6434f58a0abf4bb56bccde964a69c5824955066baaf4842c7",
       "depex_sha256": "8d212b55931b8b7178a06d7d5ff305306299accdbd845743b3c58bdf2e62a45f"
     },
     {
       "name": "SPI",
       "guid": "7a32bd23-f735-4f57-aa1a-447d2fe3be0d",
-      "pe_sha256": "197cb88b0c0e17a14ae0c33949f27a070166b99257090bb316bb92fbc6fdea74",
+      "pe_sha256": "b758729274ccdc66a6a9b6ff9f961a1ef815e83105848b6c8ab839f78cb67307",
       "depex_sha256": "95cfa13b1308bf157c24a44e7492c34335e9af953a0056da17fb047bdeb2dd50"
     },
     {
       "name": "HSUART",
       "guid": "8c102bba-15a9-4c40-8599-6d0f5689da5b",
-      "pe_sha256": "329376059937808daeab0081ffa20e574c5427bed4509970ecb264103b3f8f85",
+      "pe_sha256": "a60f3aa3f492c5327748015fbe11005cc3f032de8356e80ed108676e3817e31f",
       "depex_sha256": "f86d86294a2c4c562f45dd90d9c57732c876e39214912cb046924945550d048d"
     },
     {
       "name": "SdccDxe",
       "guid": "f10f76db-42c1-533f-34a8-69be24653110",
-      "pe_sha256": "a07cf47f5796921f445e386ac165e19270accea2b3c04864857f6d65832e0496",
+      "pe_sha256": "1d8354a4c648842a903339970cb5236008b412acc45f8abb5d94aa05641f145f",
       "depex_sha256": "96d3dcd80ec35498b71c6d2f1d0e08aab0caa5c6d8b8903d3f1d469636544f1f"
     },
     {
@@ -348,12 +348,12 @@
     {
       "name": "ButtonsDxe",
       "guid": "5bd181db-0487-4f1a-ae73-820e165611b3",
-      "pe_sha256": "ace24a88b469361a44277bfa767f8a2f3fddc36232f76ef495cd8540f66c441d",
+      "pe_sha256": "3ec0185050ae32102385f06e22bee1dcb775830cb2cafb24b696cfc24308cdc7",
       "depex_sha256": "202ad9811555d98efa58563c98a3b90e94d76630feb68f92c8d7a63c46998d9d",
       "binary_patch": {
         "module": "ButtonsDxe",
-        "input_sha256": "f83a07d53a509cd586de51c325ab54185ad4b99ad63d1a2d13b34f30dee169ed",
-        "output_sha256": "ace24a88b469361a44277bfa767f8a2f3fddc36232f76ef495cd8540f66c441d",
+        "input_sha256": "6dc9a6adbad954bdc16a02c4a348eb0a39928db88cc12383e49a29ccdfea2c3d",
+        "output_sha256": "3ec0185050ae32102385f06e22bee1dcb775830cb2cafb24b696cfc24308cdc7",
         "rva": "0x3cc0",
         "before": "48208052d6ffff17",
         "after": "edffff171f2003d5",
@@ -368,55 +368,55 @@
     {
       "name": "ChargerExDxe",
       "guid": "2e3042f3-2bb9-463f-8866-56d75b7c4ab0",
-      "pe_sha256": "6021a62331e54a248dace0b2bae7a86245ace817fe9a76ac2e50a049ae9bbcc1",
+      "pe_sha256": "fb466ee05cfdfec254ebc025d727522217fff8dec8d3bf62f4d76831b7d925a0",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "IPCCDxe",
       "guid": "42031f68-1f0b-429b-93f1-0eb0cf89ddbf",
-      "pe_sha256": "132c48946a5976e5cd2ad0c2df4044ecde159701ff7acc2003dc86999346c359",
+      "pe_sha256": "9cf63c7c634ee93120a28c627463b1a331a2ec7a268ec14df8ebdca428545e08",
       "depex_sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477"
     },
     {
       "name": "Smp2pDxe",
       "guid": "23f4e10e-3050-4073-b94c-b80d7ebc959e",
-      "pe_sha256": "2f425a6e98c45178ca9c9f3818b779e9e89357da68def4c837e6c9f1fd8fe056",
+      "pe_sha256": "a6db0eb1d8e134031d1ea664e30f81d19960eebbe373f3a4d5dc51d2fefd1bce",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "SSRDxe",
       "guid": "6b593a13-4e39-4cf5-b4e2-50b9540a324a",
-      "pe_sha256": "7f4df6510c7197207405cf8e44645dd3c21c496882a06e73be2607a030eb7f47",
+      "pe_sha256": "3b4e9ebdd973f530b18ee8d6b96e2d37af76f0a0f3dd27c974ed48c562f6b9b6",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "GlinkDxe",
       "guid": "7942a7eb-b7d5-4e2e-b908-831e4de55b58",
-      "pe_sha256": "c8bffe4ef324c857a17ce50accbc607e95468023cc834ac1f30490dbac78ad9c",
+      "pe_sha256": "c7265c67b75cec12cf3362040cddf267ab314e7a69e2e1aebebaf620fce87ab5",
       "depex_sha256": "bc412c7f953353ed9727ad256b3f5639b5424b8985f9cb2cd8201dff841b75a5"
     },
     {
       "name": "PmicGlinkDxe",
       "guid": "6d4a9cf7-cc0c-42b0-aa89-f6a6a8d99273",
-      "pe_sha256": "cae16e0c5702510307dcd0900cf133afed154aa207866a9112061d3504bdf5c3",
+      "pe_sha256": "9f399c980edd728dd574a6140d545ce76c518715e0ac133c7e90fcb99a74880a",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "QcomChargerDxeLA",
       "guid": "4bce7f36-428e-4393-99e3-7e0844404dba",
-      "pe_sha256": "2913a3417e61abe8bd8d0f838a8b1c25fb305a445e7c8a3bf5f3aadd4e601943",
+      "pe_sha256": "dd33bde0aeb1d0d11d8f33e7692d8e6627fcd365df92fc54b41c24d82a86d023",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "UsbPwrCtrlDxe",
       "guid": "11faed4c-b21f-4d88-8e48-c4c28a1e50df",
-      "pe_sha256": "42d32f9b5be6f156909721de2e401ac47b9401fa12ca2aa4fa1c9a18e07cda9c",
+      "pe_sha256": "5cae38cf38ff63a8fa5942fa6dd5b2e7162e4e8efa98fd22aaf0f7612ffbefd8",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "TsensDxe",
       "guid": "f09ad92e-485c-9cdb-3e05-3385c38f94cc",
-      "pe_sha256": "8431a24ca67241f27542c3728ff11ff7c41d859e225c87d4ba9c5be1f128e194",
+      "pe_sha256": "cd123cf2622c2594c53b6fe025564334eeb39002a89abb343b48ba7e04e48cce",
       "depex_sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477"
     },
     {
@@ -428,61 +428,61 @@
     {
       "name": "DDRInfoDxe",
       "guid": "7db0793a-4402-4be1-906e-d0fabad2707e",
-      "pe_sha256": "9c2b5c905bf66acd7a5748444c91ba4f94030ab004f88e130fc79f5a00406063",
+      "pe_sha256": "00627dad912f37f32e135f5d0794e25c9ec6575a42de1a73fd49ad137caf770d",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "UsbfnDwc3Dxe",
       "guid": "94f8a6a7-dc34-4101-88c1-99179cceae83",
-      "pe_sha256": "ba83a83acd6ac6618cc89652e68d55c2a95a65f4bd665a42f9f2b690942f1b43",
+      "pe_sha256": "55856583f5d989df524b59782c3893f48c50a6b93bfbda3239aae3b12a764538",
       "depex_sha256": "0f9eac6d4550e26b4d60f2d0da7a11677e4d2a4e8c4b04c701391abfd5215699"
     },
     {
       "name": "XhciPciEmulation",
       "guid": "beb12bee-f6e1-11e1-9fb8-6c626de4aeb1",
-      "pe_sha256": "5d13057ccd32e6c475be19536f8c8f43c07f9e4e98aa1fd1178315e92869a941",
+      "pe_sha256": "1c8cddd7b27406ac84eb005471b47bc560d35857670ad7110d83b5c89f328f14",
       "depex_sha256": "6e3f02198c4fa8c831cff254f5913e1cb682ffa122066be8813f9937cd9b64d2"
     },
     {
       "name": "XhciDxe",
       "guid": "b7f50e91-a759-412c-ade4-dcd03e7f7c28",
-      "pe_sha256": "c4501b2070f17809cc05fb9323aa4cc6f6b0ccdfc361b8216646671436d16265",
+      "pe_sha256": "504431378bf5d3e9de6eb92167aa0b2f92867436d42e76cd692b18c479e3c02f",
       "depex_sha256": null
     },
     {
       "name": "UsbBusDxe",
       "guid": "240612b7-a063-11d4-9a3a-0090273fc14d",
-      "pe_sha256": "ab18cf76a00729f075a9416ecc9817c0ba2b3615e79b1ce86fc6dc5fd59001b3",
+      "pe_sha256": "f06ac4dfed6f9eab80e3efce7e32f575bfc30d723f1298d7e695c584857d8c49",
       "depex_sha256": null
     },
     {
       "name": "UsbMassStorageDxe",
       "guid": "9fb4b4a7-42c0-4bcd-8540-9bcc6711f83e",
-      "pe_sha256": "87dd27b6ed1183d3910b025dc440946061a4030a070fd8942bf54b1a8aea4fe8",
+      "pe_sha256": "9065e50aaea4958e2ad8d01ba9348691b1b0e7b8de2a9c75676c4ed9e610a1cd",
       "depex_sha256": null
     },
     {
       "name": "UsbMsdDxe",
       "guid": "5af77f10-90df-4e7e-8325-a17ec09d5443",
-      "pe_sha256": "bdf09fed17e3d70d6f10a48110760c0b18d6feae4a3bbcc0327e2f0683443b17",
+      "pe_sha256": "feb1e79c1e596c7aa75eef95afd9a5fabb4d425a9cb78a4efd41eb282c3084c9",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "UsbDeviceDxe",
       "guid": "3299a266-15f0-4346-8318-716336736d3e",
-      "pe_sha256": "a94fd8e458ef922bfbd1ad0d8af60930751decb05167376e8aa36ce9dac9a7e4",
+      "pe_sha256": "255b0ce1cc986568b91d9cc41a5047b30c93d73ccb488fb91df788461b7b3443",
       "depex_sha256": "b3ce77141e4147a7450ff6460ea6130419f6320e016dfcb30b36ae6b4a278dab"
     },
     {
       "name": "UsbConfigDxe",
       "guid": "cd823a4d-7dec-4531-ae5d-4134fa4127b8",
-      "pe_sha256": "c56a7783d544d0b1446c5add31c94dd8d8baa9db75b8201b57fb45dc04a3c253",
+      "pe_sha256": "34ddce5895a3a375e4d9cbcd0805eab02802beda5014e15e57d38bc8fe96eeae",
       "depex_sha256": "ee32169774c787d62e03f2d39f9f266977871fec5c433e46b4c03e29b8abd17e"
     },
     {
       "name": "UsbInitDxe",
       "guid": "0a134f0e-075e-40b3-9c63-3b3906804663",
-      "pe_sha256": "72a3034d8fdb4f6eaab2d7c53849ee849423b71fa680ebd93c3deb8abca5f020",
+      "pe_sha256": "9736e0875b266d82598b5f976d8ab6fafb6771a350113644a3e98256df8eb122",
       "depex_sha256": "ac68645cdf6f47e6d36bb1293073c8d53a413ddda8e9f4c4503e6cc299ec8e79"
     },
     {
@@ -500,13 +500,13 @@
     {
       "name": "PILDxe",
       "guid": "1d317734-4083-47c6-83ea-e3a42f2a6bff",
-      "pe_sha256": "4870d161a1c5a15b05326536610bb7e158336ab5191570f92ac52e1e196a9de5",
+      "pe_sha256": "342a9a1047d4bbce21f7d951bd83ef64f9e7448652a3113f390fb8705fdd5d0a",
       "depex_sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477"
     },
     {
       "name": "PILProxyDxe",
       "guid": "8cf9c920-d5e6-4dac-bef9-6e6a4eec7add",
-      "pe_sha256": "b0ed406e5333f85ff410fcf04ac5470509829e8afba161c4e83f6388e8b1656a",
+      "pe_sha256": "44a516a5aee1c1d9106acfc6718fde1c30f2bd7604831248061ca1b9525a6d38",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
@@ -524,25 +524,25 @@
     {
       "name": "SPSSDxe",
       "guid": "5d787b6c-6254-43f5-a7a8-cb25329cf97e",
-      "pe_sha256": "a8cb51d6ff0bfb57985e827e848e9ac4d762fcf0671249a3edf22b2205a5e927",
+      "pe_sha256": "f54fd7b40be5aa533d81a34f9eaa124c7df288ae29fdccad0f4fe24066afec7a",
       "depex_sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477"
     },
     {
       "name": "RmVmDxe",
       "guid": "1d9cc582-7a90-4109-835b-0cb05b6762e1",
-      "pe_sha256": "4506cef65d77484759a7039d8c73073b966e10e364109616a1f13de95c6b87c3",
+      "pe_sha256": "6d0cfa2ee48bb8c68566221cacabe42fac236e971dd2f8aaf408fed1011e1cf1",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "ParserDxe",
       "guid": "4a568b8a-4d9d-4984-9c75-cee33698e451",
-      "pe_sha256": "f9bdcf524e1dc4368e17d622bc167f4f86d1e97c6f96f5cb4b50fb0e768b3222",
+      "pe_sha256": "bddd301508f9e607795ed7a95721dc26aa7be3f66642c25d211e8df7e0061578",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {
       "name": "SerialPortDxe",
       "guid": "84cc57f6-38be-4acf-9752-73d1e23f793f",
-      "pe_sha256": "722d52cfa7471d380482742e42e7ef7bb0279b3361b831ed6a452e15b31fd571",
+      "pe_sha256": "02e5cf828d1cf1b6b68abd425fdd0f31efd592b9a1e7a41922ed999db01000ec",
       "depex_sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23"
     },
     {

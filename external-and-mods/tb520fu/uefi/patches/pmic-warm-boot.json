@@ -1,7 +1,7 @@
 {
   "module": "PmicDxe",
-  "input_sha256": "b42833333e78bd5bab193577dd0b181a8ba5cfa043f33650214b4ab4c28b84fb",
-  "output_sha256": "accfba137defff7a6928c3922a21d5dafb800c99347303d1074f584ce5993107",
+  "input_sha256": "11441d7144146a452f16533cbe5df0b1f3a84422dc0b6c9eb55887210991f057",
+  "output_sha256": "64e0f56d66e71b40cb97fca956e310bbb0d48472d20ef1827e72fc0ea1520aa8",
   "rva": "0x11D14",
   "before": "fd7bbea9f30b00f9",
   "after": "e0031f2ac0035fd6",

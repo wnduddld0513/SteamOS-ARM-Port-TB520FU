@@ -1,7 +1,8 @@
 {
   "module": "UsbConfigDxe",
-  "input_sha256": "c56a7783d544d0b1446c5add31c94dd8d8baa9db75b8201b57fb45dc04a3c253",
-  "output_sha256": "4d1672431e7f7e0a74670008ba31809fa3364667754470589e29dcfba66a1675",
+  "status": "Not applied: scripts/prepare-tb520fu-uefi.py keeps UsbConfigDxe stock (mode 3). Kept for reference; hashes track the pinned firmware.",
+  "input_sha256": "34ddce5895a3a375e4d9cbcd0805eab02802beda5014e15e57d38bc8fe96eeae",
+  "output_sha256": "6456bda8e6ece60c195543fe7e3887d8fb94926ca82da6df5ade87d40605a3a8",
   "sites": [
     {
       "rva": "0x143f0",

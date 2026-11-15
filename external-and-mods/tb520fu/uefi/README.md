@@ -22,12 +22,21 @@ keypad stack were not established and are corrected in the comparison.
 
 `source-lock.json` pins Mu and SHA-256 of locally owned stock `uefi.elf`,
 `xbl_config.elf` and `boot.img` from
-TB520FU_ROW_OPEN_USER_Q00002.0_W_ZUI_17.5.10.362_ST_260719-resigned.
+TB520FU_ROW_OPEN_USER_Q29300.0_A17_ZUI_18.5.10.037_ST_260929.
 Other firmware releases fail validation until reviewed. Stock binaries are not
 redistributed in this repository.
+The re-pin keeps 73 module/raw entries and 43 XBL memory regions; 58 binaries
+changed and 15 are byte-identical. Every patch site keeps its reviewed bytes at
+the same RVA, and recorded .text hashes show unchanged code for the patched
+modules. RscDxe has no recorded hash and was re-checked by disassembly. Ten
+unpatched modules have different code than the recorded stock: HALIOMMU, PILDxe,
+UsbBusDxe, UsbConfigDxe, UsbDeviceDxe, UsbMassStorageDxe, UsbMsdDxe,
+UsbfnDwc3Dxe, XhciDxe and XhciPciEmulation. Their behaviour, including USB boot,
+is unverified with this firmware. The Y703 comparison documents linked above
+were recorded against ZUI 17.5.10.362.
 
 Preparation extracts AARCH64 modules and DEPEX, imports the tablet's XBL maps,
-and keeps both Tianma and BOE NT36532 panel resources. The inventory records 71
+and keeps both Tianma and BOE NT36532 panel resources. The inventory records 73
 module/raw entries and 43 memory regions. Qualcomm DiskIoDxe and PartitionDxe
 are retained for GPT-record/partition-label protocols. Binary patches require
 exact input/output hashes and original bytes.
@@ -59,8 +68,8 @@ per-driver delay. Forced power-off can lose these logs.
   This does not establish usable PMIC control, buttons or USB VBUS.
 - ButtonsDxe maps power to Unicode Enter. Its keypad device path already matches
   the source boot manager. Actual PMIC PON reads need a tablet test.
-- UsbConfigDxe selects host mode for core 0 and leaves absent core 1 disabled.
-  Host selection does not prove VBUS, switching or USB enumeration.
+- UsbConfigDxe is used unpatched and keeps stock mode 3. The host-mode patch in
+  `patches/usb-host-mode.json` is not applied by the prepare step.
 - TzDxeLA preserves the ABL global-applet handoff. FeatureEnablerDxe returns
   EFI_UNSUPPORTED for the unavailable optional TA. Secure services are unverified.
 - RscDxe's camera/PCIe initialization is deferred with EFI_UNSUPPORTED. It is

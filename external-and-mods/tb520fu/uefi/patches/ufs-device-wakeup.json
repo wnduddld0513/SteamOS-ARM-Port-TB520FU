@@ -1,7 +1,7 @@
 {
   "module": "UFSDxe",
-  "input_sha256": "452fb89e6767f1f9327539887f41214849dc50df8ba3139bbb0278582d2d9b6d",
-  "output_sha256": "3a7db7acbf3f646f2e5bb53bc267f8bc6f1d01b7b8caeb391194e5f4a496b373",
+  "input_sha256": "6a38102a7c3c1e255f527ef01e7e1bf66ce315b8914f5b6305d8db8f53d56a1f",
+  "output_sha256": "5c72038714249f791ce194466c51aa930532951d0b72b45975976a3e2a456dcc",
   "rva": "0xA468",
   "before": "4505009480fdff35",
   "after": "210080528f050094",
