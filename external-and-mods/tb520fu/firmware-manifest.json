@@ -17,7 +17,7 @@
       "source": "vendor/firmware/gen70900_zap.mbn",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/gen70900_zap.mbn",
       "size": 12088,
-      "sha256": "12124bbaa8aaaa2ee595bb2b6005ac4cf1ebb9e4715ed006159bf78e65ab5eca"
+      "sha256": "9824358c3191197d507afcee2e546e40fde1e90d9a575163817056f862ea0358"
     },
     "gen70900_sqe.fw": {
       "source": "vendor/firmware/gen70900_sqe.fw",
@@ -41,13 +41,13 @@
       "source": "vendor/firmware/vpu33_4v.mbn",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/vpu33_4v.mbn",
       "size": 2339528,
-      "sha256": "bd3bbbbfe7e7cb324c5a69810893c40a2ebae58c01d7b532ce34ea0532d2844f"
+      "sha256": "e8903737271d2f93fc45c7104608194c65b5ac016e98b74d78a893da1dad69bc"
     },
     "NON-HLOS.bin:image/adsp.b00": {
       "source": "NON-HLOS.bin:image/adsp.b00",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b00",
       "size": 1844,
-      "sha256": "38d305a30d2852c3b3aaeacaf14eb24b96d1ae8fc2792a4f1d153db0a6a24398"
+      "sha256": "3fa9a5ee4a065455d1270c01b20f0a730dd74691d2c804fa6acbda887ab40e29"
     },
     "NON-HLOS.bin:image/adsp.b01": {
       "source": "NON-HLOS.bin:image/adsp.b01",
@@ -83,7 +83,7 @@
       "source": "NON-HLOS.bin:image/adsp.b06",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b06",
       "size": 811008,
-      "sha256": "aa5eb6aebaadabe8574d79de62c6b8bf8c0a86772a8895b3b540dbcf1c51012f"
+      "sha256": "da445580c9cebd1b62ab17db6c5d8f0167ec0c7da07505bdc477ecfbdae15229"
     },
     "NON-HLOS.bin:image/adsp.b07": {
       "source": "NON-HLOS.bin:image/adsp.b07",
@@ -101,13 +101,13 @@
       "source": "NON-HLOS.bin:image/adsp.b09",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b09",
       "size": 2810276,
-      "sha256": "c520c5372c5331784941314c88adfb0c888ea57b843b648f05242d3366415a8d"
+      "sha256": "87a519215e66d2674fc78516be9b0c49a3ab1c9760eaa80b744dccd7ac8ea37c"
     },
     "NON-HLOS.bin:image/adsp.b10": {
       "source": "NON-HLOS.bin:image/adsp.b10",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b10",
-      "size": 311620,
-      "sha256": "cba181aa9e13de2d289519eaeeb6183a8fa0ba8945df47b9d1cf1248478fe526"
+      "size": 311628,
+      "sha256": "550447eb11b6e12d4181db11cf5e1e04c3418b09bc46490705493f39fb3a922b"
     },
     "NON-HLOS.bin:image/adsp.b11": {
       "source": "NON-HLOS.bin:image/adsp.b11",
@@ -131,13 +131,13 @@
       "source": "NON-HLOS.bin:image/adsp.b14",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b14",
       "size": 234920,
-      "sha256": "010d1a48a7590c3097c652c3869866784931dee6d43cbf2a2dea8f2e48ffadae"
+      "sha256": "469bf055cafac33f73de2911b0cb40261488e3f98d5c8262cbd81f62b84861ed"
     },
     "NON-HLOS.bin:image/adsp.b15": {
       "source": "NON-HLOS.bin:image/adsp.b15",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b15",
       "size": 153220,
-      "sha256": "b14098c6e21d634adb7f6920b91504523b1b2b237602fc06250571e1a941da0c"
+      "sha256": "75b06bc64b00cfe7de61d80ccb633f585e199685c9e704e249e72751e05fb6bc"
     },
     "NON-HLOS.bin:image/adsp.b16": {
       "source": "NON-HLOS.bin:image/adsp.b16",
@@ -155,13 +155,13 @@
       "source": "NON-HLOS.bin:image/adsp.b18",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b18",
       "size": 2694884,
-      "sha256": "f74b33b35e9939f8eedf8b8cc156da310e119672f1fd76595777a5d4c4972d74"
+      "sha256": "f676eecebda6fcb680d27c5ae914c83c876ac0a571f687a52a5e382d935fc42b"
     },
     "NON-HLOS.bin:image/adsp.b19": {
       "source": "NON-HLOS.bin:image/adsp.b19",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b19",
       "size": 54136,
-      "sha256": "bd414b5e76ff278373efc4a7c588b7e48272285efb777b6a31409fc6c6bb0faf"
+      "sha256": "224387cf52f4cd70607969394cbbae73d41f24c67342eb5c72de1093cec93b56"
     },
     "NON-HLOS.bin:image/adsp.b20": {
       "source": "NON-HLOS.bin:image/adsp.b20",
@@ -173,19 +173,19 @@
       "source": "NON-HLOS.bin:image/adsp.b21",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b21",
       "size": 386201,
-      "sha256": "91df730162287c3dfe88f3b29c83f3d38245ed2da27a4793a84b0cb8cc7135fa"
+      "sha256": "c8569e7db84f36d87614afd0c3d3515866b4fc54724df053096ee3922a38140c"
     },
     "NON-HLOS.bin:image/adsp.b22": {
       "source": "NON-HLOS.bin:image/adsp.b22",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b22",
       "size": 2465496,
-      "sha256": "ce65ecde66a77e2b8d7b6c979251f1346c56e986b705544065bfc6108422b553"
+      "sha256": "f30b9a96519f28e7bfc1f7b8444663c3412621ec95edb003a4af878d4f8b58c8"
     },
     "NON-HLOS.bin:image/adsp.b23": {
       "source": "NON-HLOS.bin:image/adsp.b23",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b23",
       "size": 2687032,
-      "sha256": "dea1565d047713a5cb39b760bcda491f38209f8bf43f75aef86137c96f4f0215"
+      "sha256": "771edd71ea2d9dfb65269f168e23959ea0a1bf71897ed6f929f577756db291a3"
     },
     "NON-HLOS.bin:image/adsp.b25": {
       "source": "NON-HLOS.bin:image/adsp.b25",
@@ -203,37 +203,37 @@
       "source": "NON-HLOS.bin:image/adsp.b27",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b27",
       "size": 37408,
-      "sha256": "304ad206e66ee3eb626af3d1e7ae3996e6ea5d23a65c46def37e4e81538ec4fe"
+      "sha256": "79e01e69ed2044a43f590e072bdd5e90665f1934eeda10f2cd8374cbd600f2c0"
     },
     "NON-HLOS.bin:image/adsp.b28": {
       "source": "NON-HLOS.bin:image/adsp.b28",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b28",
       "size": 315956,
-      "sha256": "c53e82e0140c369ba9f3c15bdb7478aacfeb49112c892877e4165190246c069c"
+      "sha256": "fb2b8dcdcc02bc837ee0b8f7b6c85a4dd3e40322595f30131b678068146ad3e1"
     },
     "NON-HLOS.bin:image/adsp.b29": {
       "source": "NON-HLOS.bin:image/adsp.b29",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b29",
       "size": 159141,
-      "sha256": "3cbb46166d77b40065612ef6a7f35398db7b89bdd5b152299b849b055b19abe5"
+      "sha256": "ba98f84aa9586ee2bbbc1717da8412feb870270880eb7db394699978685e4218"
     },
     "NON-HLOS.bin:image/adsp.b30": {
       "source": "NON-HLOS.bin:image/adsp.b30",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b30",
       "size": 151572,
-      "sha256": "3c9afbb3b5eb40d5dc7be141631bec0653f38693597a6d0e031825214bb02d69"
+      "sha256": "92f7d915c300a1481b96c2bda255db32129975b8946b877f165928589417e610"
     },
     "NON-HLOS.bin:image/adsp.b31": {
       "source": "NON-HLOS.bin:image/adsp.b31",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b31",
       "size": 8412,
-      "sha256": "70c6f03d9c63640994862919fe2a0c3bf6d855efcdf7bea5d94a69a4330444d5"
+      "sha256": "4ec2a409ddfc89f107a6799c02832435eeac169ffac593453fd4ee24a4023f15"
     },
     "NON-HLOS.bin:image/adsp.b32": {
       "source": "NON-HLOS.bin:image/adsp.b32",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b32",
       "size": 104753,
-      "sha256": "c4228fadab42510892c5548dfd9702a32d22efc505bc2d1b78da75acce5a207f"
+      "sha256": "8e10534adba7ebbb619c05fca5e8d1b1c8e850e58b59fb822db2cdcb512c603b"
     },
     "NON-HLOS.bin:image/adsp.b33": {
       "source": "NON-HLOS.bin:image/adsp.b33",
@@ -256,8 +256,8 @@
     "NON-HLOS.bin:image/adsp.b36": {
       "source": "NON-HLOS.bin:image/adsp.b36",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b36",
-      "size": 53080,
-      "sha256": "9f83facae564f149cb639e646a7d10e2d01a53b57a01d727b23bfb179aab2dca"
+      "size": 53072,
+      "sha256": "d304559076b03b5f93c257973b00a50bf5b793befd5e372312983d1173819eaa"
     },
     "NON-HLOS.bin:image/adsp.b37": {
       "source": "NON-HLOS.bin:image/adsp.b37",
@@ -280,14 +280,14 @@
     "NON-HLOS.bin:image/adsp.b40": {
       "source": "NON-HLOS.bin:image/adsp.b40",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b40",
-      "size": 7231148,
-      "sha256": "975171988d216cd29c09eae2a92cc38a35945d3c7ef975ee98d79abb6a9984ad"
+      "size": 7231180,
+      "sha256": "8682ae6dcd7ac15d96f1fe3535e962781c6e071998c5e3361339469d7a8ed3ad"
     },
     "NON-HLOS.bin:image/adsp.b41": {
       "source": "NON-HLOS.bin:image/adsp.b41",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b41",
       "size": 3260424,
-      "sha256": "fb7ba0131ecafbd87df40d2717ed45b7b47ee9432c3c56dc9f746fa52e986146"
+      "sha256": "8804a18146fe55648c5de7bb69496ed7599b66da0ade298595e6d829d7afae44"
     },
     "NON-HLOS.bin:image/adsp.b42": {
       "source": "NON-HLOS.bin:image/adsp.b42",
@@ -305,19 +305,19 @@
       "source": "NON-HLOS.bin:image/adsp.b44",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b44",
       "size": 3444,
-      "sha256": "58d281c07c202e44d2f2c5dd7a0b411f22849101d7b3385ee3cbf576fb1e0e43"
+      "sha256": "1d734b6359b9bb4379459c0fd357f71b0f75b39c26ca188b3b2c955d04d28875"
     },
     "NON-HLOS.bin:image/adsp.b45": {
       "source": "NON-HLOS.bin:image/adsp.b45",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b45",
       "size": 30240,
-      "sha256": "6bb3c7ee4bea6b299268c7b7d89114d5d4dfb5832e89f67882cb67a4eef2c495"
+      "sha256": "70e4a0fa3f106175afb9767da681109868acbf5c4760363a1e4187be0c7644bf"
     },
     "NON-HLOS.bin:image/adsp.b46": {
       "source": "NON-HLOS.bin:image/adsp.b46",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b46",
       "size": 352460,
-      "sha256": "9c74a05e74e22afcee29339d76aa2ebf5d2b47ddc1a0ab975a44a084be275b1a"
+      "sha256": "9b9c9747db2872a089f5cc50ccb26846e246028c8cf9f6bfe8ea94d350acb24b"
     },
     "NON-HLOS.bin:image/adsp.b47": {
       "source": "NON-HLOS.bin:image/adsp.b47",
@@ -328,14 +328,14 @@
     "NON-HLOS.bin:image/adsp.b48": {
       "source": "NON-HLOS.bin:image/adsp.b48",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b48",
-      "size": 23648,
-      "sha256": "76ffd3a1963416388e2cae5043876fe06cd9e9e62d57432f1f65ec452292a8db"
+      "size": 23640,
+      "sha256": "209fff0615db664ae64cd8365a38e487ac5a899468c464b324f70bd115e041fc"
     },
     "NON-HLOS.bin:image/adsp.b49": {
       "source": "NON-HLOS.bin:image/adsp.b49",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b49",
       "size": 823296,
-      "sha256": "853e00c5dcea7636b2b085798c09b131d5af747f00c5f568f4d6997443899e02"
+      "sha256": "2cbcbb0b8cd7c42df382b02a159f752a432f807f27749b723ffdc12b5b6cbfaa"
     },
     "NON-HLOS.bin:image/adsp.b50": {
       "source": "NON-HLOS.bin:image/adsp.b50",
@@ -347,7 +347,7 @@
       "source": "NON-HLOS.bin:image/adsp.b51",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b51",
       "size": 966656,
-      "sha256": "00c53ca3a44fc9995586762313bd7ba24b65092b498e47a02279c632cd58c307"
+      "sha256": "4a826f7bb389dba7783acc04ee2a8af53585682c06ab7ad9a31475338d7a760d"
     },
     "NON-HLOS.bin:image/adsp.b52": {
       "source": "NON-HLOS.bin:image/adsp.b52",
@@ -359,19 +359,19 @@
       "source": "NON-HLOS.bin:image/adsp.b53",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b53",
       "size": 3593376,
-      "sha256": "57b81762808e5900752270ace4832a07fd1b2ac609be3d29238fd5d7aee9a23a"
+      "sha256": "038c0d638f6b1976c0786c45da03a67b6c49ef10a635fbb7d62df7e400411444"
     },
     "NON-HLOS.bin:image/adsp.b55": {
       "source": "NON-HLOS.bin:image/adsp.b55",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.b55",
       "size": 6440,
-      "sha256": "00d0806a6a3d609af8016a4c45bd24bedec6894e04551e57aad697358d01c5bd"
+      "sha256": "cf3b4e0572e7ed8fa0c0b042b5308ae981769370b463fdfae328dd540856d96d"
     },
     "NON-HLOS.bin:image/adsp.mdt": {
       "source": "NON-HLOS.bin:image/adsp.mdt",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp.mdt",
       "size": 8284,
-      "sha256": "67386dcb1f956ee2989c545ad96c1e84e54b4a7ae4882c394f272fdb4ff3e731"
+      "sha256": "d51fbfe6f00e3f56b885c00aba82b5e684a56f927a4c00211d1c076cec8b768a"
     },
     "NON-HLOS.bin:image/adsp_dtb.b00": {
       "source": "NON-HLOS.bin:image/adsp_dtb.b00",
@@ -389,13 +389,13 @@
       "source": "NON-HLOS.bin:image/adsp_dtb.b02",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp_dtb.b02",
       "size": 3896,
-      "sha256": "9ee2e59c5da6a3885dd812abbd00e881c74306d018b327caba49375359e57879"
+      "sha256": "50011184322801afad2a04f41a258c9e06eac659db424720525de9ed37315aa1"
     },
     "NON-HLOS.bin:image/adsp_dtb.mdt": {
       "source": "NON-HLOS.bin:image/adsp_dtb.mdt",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/adsp_dtb.mdt",
       "size": 4044,
-      "sha256": "e0eed459800b8e507b79ddad5414e71a641d2e2f1985bb7af5ebf5c487cc7d2a"
+      "sha256": "42d141452573a162425d248aad1f44605db8ccbb866b5490af6a3219fdc3fc69"
     },
     "NON-HLOS.bin:image/cdsp.b00": {
       "source": "NON-HLOS.bin:image/cdsp.b00",
@@ -431,19 +431,19 @@
       "source": "NON-HLOS.bin:image/cdsp.b05",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/cdsp.b05",
       "size": 2212420,
-      "sha256": "d0db3a357abe5e5d876971d577287826ac20ab8647028428326b1d777fd81a77"
+      "sha256": "24bc3e46c23db0eb05956d77cac3aa15cbc119a25a94ca5d9bf810cf9c1f5e4e"
     },
     "NON-HLOS.bin:image/cdsp.b06": {
       "source": "NON-HLOS.bin:image/cdsp.b06",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/cdsp.b06",
       "size": 114696,
-      "sha256": "9eaef16657f6682feac0eb643814aa618fc8269c3f51ffcec2d2845fdb459bb2"
+      "sha256": "0f432d55873f26f4c097e46df13e813d9e994cc5619ec23850371d419840de07"
     },
     "NON-HLOS.bin:image/cdsp.b07": {
       "source": "NON-HLOS.bin:image/cdsp.b07",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/cdsp.b07",
       "size": 2776,
-      "sha256": "68f06be802627bb6973c7c8a3214063f139edd4552b8058ce9b1ee2a8fce208a"
+      "sha256": "3a1d854455c08de2dba44b125f78be955bd17c6dfe88cd10c804b02beec7f9a1"
     },
     "NON-HLOS.bin:image/cdsp.b08": {
       "source": "NON-HLOS.bin:image/cdsp.b08",
@@ -455,13 +455,13 @@
       "source": "NON-HLOS.bin:image/cdsp.b09",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/cdsp.b09",
       "size": 3043604,
-      "sha256": "ecb33f16699a96a6ac31ff93ceaac5a444998d8675fde603c4e3c77e9c062a4f"
+      "sha256": "9cca946017f6945d14d2acb716bfa06b1bbe105f9e946b32bc4260b656e0bfa0"
     },
     "NON-HLOS.bin:image/cdsp.b10": {
       "source": "NON-HLOS.bin:image/cdsp.b10",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/cdsp.b10",
       "size": 65224,
-      "sha256": "348722de6b25056d688e7063c7f115de9092ba6b23be8577950e4a66eb0fca45"
+      "sha256": "72fb0de6c820585fe37c84f0f8a88c419fca3d9d6a71b3893488d9c232f8230f"
     },
     "NON-HLOS.bin:image/cdsp.b11": {
       "source": "NON-HLOS.bin:image/cdsp.b11",
@@ -485,13 +485,13 @@
       "source": "NON-HLOS.bin:image/cdsp.b15",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/cdsp.b15",
       "size": 4520,
-      "sha256": "173a837986f11d3e74a08c2b28972b336eee47c2c06c775a6ec60b3cf17e1a15"
+      "sha256": "d5d54ed49ac6e65c7d578ed48352c9f327d0d01d780f1365e9478d912a287a94"
     },
     "NON-HLOS.bin:image/cdsp.mdt": {
       "source": "NON-HLOS.bin:image/cdsp.mdt",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/cdsp.mdt",
       "size": 5084,
-      "sha256": "1cc5f2a4a58c6934a0f52ef807c6e2de129fc623804dd0d3819e93d66adae5ad"
+      "sha256": "45f7208bb30ad4d5704b84ee0562c3085119234eb34017d0a264653859912758"
     },
     "NON-HLOS.bin:image/cdsp_dtb.b00": {
       "source": "NON-HLOS.bin:image/cdsp_dtb.b00",
@@ -509,13 +509,13 @@
       "source": "NON-HLOS.bin:image/cdsp_dtb.b02",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/cdsp_dtb.b02",
       "size": 3896,
-      "sha256": "5c16ddc6ec1a66f1912262e7fb6c56cf66b90decd32668ac62659e477e00a533"
+      "sha256": "dc35a38db866da069dacbb989d46d889d85bd1acac3b58f3d7b0a1e4d7b3f7ab"
     },
     "NON-HLOS.bin:image/cdsp_dtb.mdt": {
       "source": "NON-HLOS.bin:image/cdsp_dtb.mdt",
       "destination": "usr/lib/firmware/qcom/sm8650/lenovo/tb520fu/cdsp_dtb.mdt",
       "size": 4044,
-      "sha256": "20925dc7906da358e3db2c5f212e4394d1259152d982cbc8bc16885987e63c0a"
+      "sha256": "b838c1c6de4ac4b7472c7d1bb73d25c953895dc7c64d46b7376c505118a979c7"
     },
     "NON-HLOS.bin:image/kiwi/bdwlan_row_lapis.elf": {
       "source": "NON-HLOS.bin:image/kiwi/bdwlan_row_lapis.elf",
@@ -1576,8 +1576,8 @@
     "dspso.bin:adsp/sns_tppe.so": {
       "source": "dspso.bin:adsp/sns_tppe.so",
       "destination": "usr/share/qcom/sm8650/Lenovo/tb520fu/dsp/adsp/sns_tppe.so",
-      "size": 268624,
-      "sha256": "4cdfb27f1b222150f4b96d2d7f41bf39f5b03a6627e7d4fd181d01dd594f47dd"
+      "size": 269264,
+      "sha256": "c405254f84ed3de1c81eea69060f5d7889e3c8b765f306828a739e7dcdf3c6b1"
     },
     "dspso.bin:adsp/spf-aptx-adaptive3-ble-enc.so.1": {
       "source": "dspso.bin:adsp/spf-aptx-adaptive3-ble-enc.so.1",
@@ -1648,15 +1648,15 @@
   },
   "images": {
     "NON-HLOS.bin": {
-      "sha256": "ad31e6cc9bee38292e0859a16e9a3d85de5df5920e6fc1e7c28220ff0021aff8",
+      "sha256": "104de36c4616c298b84ad8c1a6624d273c9cd5dafa4c0cc8c5101e79b5d257e3",
       "size": 101707776
     },
     "BTFM.bin": {
-      "sha256": "0bc74591afb8dff17e626c0ac89910c9bf6fa7ee45189041863fb400d185c714",
+      "sha256": "95dc3eea4fe0f0dedbbc85688085365f08aacf98362bf380a3e3f4688e442c9f",
       "size": 1470464
     },
     "dspso.bin": {
-      "sha256": "5fc8d61652727315371dcab8f8d54101160b8a004f81cefeeda5a136dc1193f7",
+      "sha256": "f595ead5d424f168147c22569f39f87d458a47db2775e8559481a5222412a0ec",
       "size": 67108864
     }
   }

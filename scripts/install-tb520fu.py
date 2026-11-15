@@ -16,7 +16,7 @@ QCA_FIRMWARE = (
     'qcom/sm8650/lenovo/tb520fu/hmtnv20_Lapis.bin',
 )
 SOURCE_COMMIT = '972c5ce4d2955bb0382a2101f4e22c5185cea6ba'
-FIRMWARE_SHA = '315f7d7f349fef84fbe05211fbbc55eaad3d93c750326bc80baca6e849da4328'
+FIRMWARE_SHA = '83cdba561d65f512cc8f7fb3e0dd8aa04530b36bd004d3e9fa2f0a4fc152bbfd'
 MASKED = (
     'konkrd.service', 'konkr-sleep.service', 'konkr-pd-kick.service',
     'pocket-s2-controller.service', 'sm8550-fixpad.service',
